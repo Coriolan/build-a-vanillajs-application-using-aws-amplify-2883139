@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "linkedinlearningamplify",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-11-17T18:41:25.162Z"
+}

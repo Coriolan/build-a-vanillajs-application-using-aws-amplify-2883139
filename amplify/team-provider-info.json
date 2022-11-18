@@ -1,0 +1,34 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-linkedinlearningampl-staging-162533-authRole",
+      "UnauthRoleArn": "arn:aws:iam::952168715805:role/amplify-linkedinlearningampl-staging-162533-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::952168715805:role/amplify-linkedinlearningampl-staging-162533-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-linkedinlearningampl-staging-162533-deployment",
+      "UnauthRoleName": "amplify-linkedinlearningampl-staging-162533-unauthRole",
+      "StackName": "amplify-linkedinlearningampl-staging-162533",
+      "StackId": "arn:aws:cloudformation:us-east-1:952168715805:stack/amplify-linkedinlearningampl-staging-162533/760efc80-6694-11ed-9f99-0ef4df76b393",
+      "AmplifyAppId": "d24ydsw96kky0o",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-linkedinlearningampl-staging-162533-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "linkedinlearningamplify": {},
+        "userPoolGroups": {}
+      },
+      "api": {
+        "linkedinlearningamplify": {}
+      },
+      "storage": {
+        "binaryvillepics": {}
+      },
+      "function": {
+        "linkedinlearningamplifyPostConfirmation": {
+          "deploymentBucketName": "amplify-linkedinlearningampl-staging-162533-deployment",
+          "s3Key": "amplify-builds/linkedinlearningamplifyPostConfirmation-6b787731686738593478-build.zip"
+        }
+      }
+    }
+  }
+}
